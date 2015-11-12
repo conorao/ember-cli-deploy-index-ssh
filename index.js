@@ -4,7 +4,7 @@
 var BasePlugin = require('ember-cli-deploy-plugin');
 
 module.exports = {
-  name: 'ember-cli-deploy-index-ssh'
+  name: 'ember-cli-deploy-index-ssh',
 
   createDeployPlugin: function(options) {
     var DeployPlugin = BasePlugin.extend({
@@ -29,6 +29,4 @@ module.exports = {
 
     return new DeployPlugin();
   }
-};
-
 };
