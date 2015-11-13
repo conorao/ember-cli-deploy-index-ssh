@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-deploy-index-ssh",
-  "version": "0.0.1",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.2",
+  "description": "ember-cli-deploy plugin to push index.html to servers via ssh",
   "directories": {
     "doc": "doc",
     "test": "tests"
