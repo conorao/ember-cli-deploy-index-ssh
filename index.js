@@ -36,7 +36,7 @@ module.exports = {
 
       didBuild: function(context) {
         //do something amazing here once the project has been built
-        this.log('ARE YOU READY TO ROCK?' { color: 'blue' });
+        this.log('ARE YOU READY TO ROCK?', { color: 'blue' });
       },
 
       upload: function(context) {
@@ -45,7 +45,7 @@ module.exports = {
 
       didDeploy: function(context) {
         //do something here like notify your team on slack
-      }
+      },
     });
 
     return new DeployPlugin();
