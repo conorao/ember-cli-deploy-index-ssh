@@ -32,7 +32,7 @@ module.exports = {
 
       willDeploy: function(context) {
         this.log(context.client);
-      }
+      },
 
       didBuild: function(context) {
         //do something amazing here once the project has been built
